@@ -24,7 +24,6 @@ const App = () => {
   }, [monsters, searchField]);
 
   const onSearchChange = (event) => {
-    console.log("test");
     setSearchField(event.target.value.toLowerCase());
   };
 
